@@ -1,0 +1,35 @@
+# --- Dependencies ---
+node_modules/
+.bun/
+data/
+
+# --- Build ---
+dist/
+out/
+build/
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+*.env.bak
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.swp
+
+# --- Tests ---
+coverage/
+.nyc_output/
+
+# --- Claude Code (local overrides only; .claude/ itself is committed) ---
+.claude/settings.local.json

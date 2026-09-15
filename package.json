@@ -1,0 +1,22 @@
+{
+  "name": "ds-gaetandev",
+  "version": "1.0.0",
+  "description": "Design system for GaetanDev apps — server-rendered HTML components for Bun + Elysia",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "exports": {
+    ".": "./src/ds/index.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.2.25"
+  },
+  "devDependencies": {
+    "bun-types": "^1.2.3",
+    "typescript": "^5.7.0"
+  },
+  "trustedDependencies": ["elysia"]
+}
